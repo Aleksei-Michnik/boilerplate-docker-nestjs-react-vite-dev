@@ -1,4 +1,4 @@
-# Boilerplate for Docker: NestJS backend, Vite+React (TypeScript) frontend, MongoDB database, NPM
+# Docker Boilerplate: NestJS, Vite+React, MongoDB, NPM
 
 ## Quick start
 
