@@ -1,7 +1,6 @@
 services:
   mongo:
     image: mongo:latest
-    container_name: mongo
     restart: always
     ports:
       - "${MONGO_PORT_HOST}:${MONGO_PORT}"
@@ -19,7 +18,6 @@ services:
       retries: 5
 
   backend:
-    container_name: backend
     build:
       context: ./backend
       dockerfile: Dockerfile
@@ -38,7 +36,6 @@ services:
       dockerfile: Dockerfile
       args:
         VITE_PORT: ${VITE_PORT}
-    container_name: frontend
     volumes:
       - ./frontend:/app
     ports:
