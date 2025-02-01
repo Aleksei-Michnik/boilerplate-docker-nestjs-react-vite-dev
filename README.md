@@ -2,6 +2,8 @@
 
 ## Quick start
 
+_Disclaimer: Tested on Docker Desktop running on WSL 2_
+
 1. Clone project
 2. Set environmental variables
    ```shell
