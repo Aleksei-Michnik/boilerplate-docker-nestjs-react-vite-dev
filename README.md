@@ -17,7 +17,7 @@
    ```
 4. Build and run Docker:
    ```shell
-   docker compose up --build -d
+   $ docker compose up --build -d
    ```
 5. Access Vite frontend on http://localhost:5173, where `5173` is the value of `VITE_PORT_HOST`.
    
