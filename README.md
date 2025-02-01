@@ -17,7 +17,7 @@
    ```
 4. Build and run Docker:
    ```shell
-   docker compose up --build -d
+   $ docker compose up --build -d
    ```
 
 ## Backend
