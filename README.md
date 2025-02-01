@@ -19,6 +19,9 @@
    ```shell
    docker compose up --build -d
    ```
+5. Access Vite frontend on http://localhost:5173, where `5173` is the value of `VITE_PORT_HOST`.
+   
+   Backend should be accessible at http://localhost:3002, where `3002` is the value of `BACKEND_PORT_HOST`.
 
 ## Backend
 
