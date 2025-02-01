@@ -1,4 +1,4 @@
-# Boilerplate for Docker: NestJS backend, React (TypeScript) frontend, MongoDB database, NPM
+# Boilerplate for Docker: NestJS backend, Vite+React (TypeScript) frontend, MongoDB database, NPM
 
 ## Quick start
 
@@ -21,7 +21,7 @@ _Disclaimer: Tested on Docker Desktop running on WSL 2_
    ```shell
    $ docker compose up --build -d
    ```
-5. Access Vite frontend on http://localhost:5173, where `5173` is the value of `VITE_PORT_HOST`.
+5. Access Vite React frontend on http://localhost:5173, where `5173` is the value of `VITE_PORT_HOST`.
    
    Backend should be accessible at http://localhost:3002, where `3002` is the value of `BACKEND_PORT_HOST`.
 
